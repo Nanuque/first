@@ -1,7 +1,7 @@
 import telebot # type: ignore
 import random
 
-bot = telebot.TeleBot("7433701467:AAH5xY7kgEOoCpkcw50vg6gLDx6tEUyB3dA")
+bot = telebot.TeleBot("...")
 #/start - Бот має привітатись
 @bot.message_handler(commands=["start", "hello"])
 def start_handler(message:telebot.types.Message):
